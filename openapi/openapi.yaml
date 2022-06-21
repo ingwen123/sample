@@ -44,7 +44,7 @@ tags:
 
       ### Normal Transaction
 
-      ![Normal Transaction](../asset/normaltransaction.png)
+      ![Normal Transaction](http://117.54.12.140/sample/asset/normaltransaction.png)
 
       <br>
       <br>
@@ -67,7 +67,7 @@ tags:
 
       ### Abnormal Transaction
 
-      ![Abnormal Transaction](../asset/normaltransaction.png)
+      ![Abnormal Transaction](http://117.54.12.140/sample/asset/abnormaltransaction.png)
 
       <br>
       <br>
@@ -109,13 +109,12 @@ tags:
       <br>
       <br>
 
-      ## Flow - Game Products
+      ## Flow - Products
       ---
       <br>
       <br>
 
-        <img src="../flow game product api.png" alt="">
-        <img src=""
+        ![Products Flow](http://117.54.12.140/sample/asset/productsflow.png)
 
       <br>
       <br>
@@ -169,7 +168,7 @@ tags:
       <br>
       <br>
 
-      ![Flow]()
+      ![flowva](http://117.54.12.140/sample/asset/flowva.png)
 
       <br>
       <br>
@@ -227,7 +226,7 @@ tags:
 
       ## Flow - Ototrans
       ---
-      ![Flow]()
+      ![Flow Ototrans](http://117.54.12.140/sample/asset/flowototrans.png)
 
   - name: Setorku 
     description: |
@@ -261,7 +260,7 @@ tags:
       <br>
 
       ### Work Flow
-      ![Work Flow]()
+      ![Work Flow Setorku](http://117.54.12.140/sample/asset/workflowsetorku.png)
 
       <u>Details:</u>
       1. DKH Assignment process can be integrated with mobile collection of merchants.
@@ -271,7 +270,7 @@ tags:
       <br>
 
       ### Service Point Flow
-       ![Service Point Flow]()
+       ![Service Point Flow](http://117.54.12.140/sample/asset/servicepointflowsetorku.png)
 
       <br>
       <br>

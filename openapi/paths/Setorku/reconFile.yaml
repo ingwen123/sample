@@ -6,7 +6,7 @@ put:
     --- 
     ### Flow (Reconcile File)
 
-    ![Reconcile Flow]()
+    ![Reconcile File Flow](http://117.54.12.140/sample/asset/reconcilefileflowsetorku.png)
 
     <u>Details:</u>
     1. Reconciliation File will send to merchants a day after (D+1) at 10.00 am
@@ -16,7 +16,7 @@ put:
 
     ### Format
 
-    ![Format]()
+    ![Format](http://117.54.12.140/sample/asset/formatsetorku.png)
 
     <u>Details:</u>
 
@@ -30,7 +30,7 @@ put:
 
     Example:
 
-    ![Example]()
+    ![Format Example](http://117.54.12.140/sample/asset/formatexamplesetorku.png)
     From left to right: Payment Code - Pay date - Total amount - Receipt No - Partner ID - Tracking ref - Merchant transaction ID
 
     <u>Details:</u>
