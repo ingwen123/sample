@@ -107,7 +107,8 @@ put:
     |GIN100H      |INCASH 100.000               |-          |V          |V         |-           |
     |GIN10H       |INCASH 10.000                |-          |V          |V         |-           |
     |GIN20H       |INCASH 20.000                |-          |V          |V         |-           |
-    |GIN50H       |GAME WEB VOUCHER 100.000     |-          |V          |V         |-           |
+    |GIN50H       |INCASH 50.000                |-          |V          |V         |-           |
+    |GMB100H      |GAME WEB VOUCHER 100.000     |-          |V          |V         |-           |
     |GMB10H       |GAME WEB VOUCHER 10.000      |-          |V          |V         |-           |
     |GMB20H       |GAME WEB VOUCHER 20.000      |-          |V          |V         |-           |
     |GMB50H       |GAME WEB VOUCHER 50.000      |-          |V          |V         |-           |
