@@ -17,22 +17,49 @@ put:
 
     |Name                |Value                                     |
     |--------------------|------------------------------------------|
-    |tx_id               |DMY20210528131636224                      |
-    |tx_date             |2021-07-09 15:16:36                       |
-    |bank_code           |014                                       |
-    |tx_amt              |10000                                     |
-    |is_open             |false                                     |
-    |va_expired_time     |1200                                      |
-    |is_lifetime         |false                                     |
-    |username            |agus                                      |
-    |trx_expiration_time |1200                                      |
-    |partner_id          |DMY                                       |
-    |terminal            |XMP                                       |
-    |signature           |272897e7a137d8bb0e7b38e89076e074adbd1b10  |
+    |trxid               |AS111111111111111111                      |
+    |trxdate             |2018-02-28 11:11:11                       |
+    |productid           |1                                         |
+    |merchanttransactionid|90901                                    |
+    |usercode            |120                                       |
+    |username            |Maman                                     |
+    |totalbill           |4                                         |
+    |totalamount         |2000000                                   |
+    |trackingref         |A109                                      |
+    |signature           |3093f8133f9d698ee796fbedb96f96545679a1e0  |
 
     => Signature = SHA1([AS111111111111111111+2018-02-28 11:11:11+1+90901+120+maman+4+2000000+A109+ pass1234])
 
     => Signature = SHA1(AS1111111111111111112018-02-28 11:11:11190901120maman42000000A109pass1234)
+
+    **=> Signature = 3093f8133f9d698ee796fbedb96f96545679a1e0**
+
+    <br>
+    <br>
+
+    ### IDS Cancel Payment Code API Signature
+
+    To ensure security, one particular key, the field Signature, is implemented. It is the key check against requested data. This field is the result of the SHA1 encryption of a combination of all the other fields, plus a password.
+
+    **Signature = SHA1([Concat all the field values except Signature]+Password)**
+
+    <br>
+    <br>
+
+    For Example: 
+
+    |Name                |Value                                     |
+    |--------------------|------------------------------------------|
+    |trxid               |AS111111111111111111                      |
+    |trxdate             |2018-02-28 11:11:11                       |
+    |productid           |1                                         |
+    |kodebayar           |90901061                                  |
+    |trackingref         |A109                                      |
+    |signature           |3093f8133f9d698ee796fbedb96f96545679a1e0  |
+
+    => Signature = SHA1([AS111111111111111111+2018-02-28 11:11:11+1+90901061+A109+pass1234])
+
+    => Signature = SHA1(AS1111111111111111112018-02-28 11:11:11190901061A109pass1234)
 
     **=> Signature = 3093f8133f9d698ee796fbedb96f96545679a1e0**
 

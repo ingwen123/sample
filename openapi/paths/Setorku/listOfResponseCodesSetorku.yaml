@@ -4,7 +4,7 @@ put:
     - Setorku 
   description: |
     --- 
-    ### IDS Create Store Code API Response Codes
+    ### IDS Create Store Code / Cancel Payment Code API Response Codes
 
     |Response |Description              |
     |---------|-------------------------|
@@ -30,7 +30,6 @@ put:
     |Response |Description              |
     |---------|-------------------------|
     |00       |SUCCESS                  |
-    |05       |ERROR                    |
 
     <br>
     <br>
@@ -40,7 +39,6 @@ put:
     |Response |Description              |
     |---------|-------------------------|
     |00       |SUCCESS                  |
-    |05       |ERROR                    |
 
     <br>
     <br>
